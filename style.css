@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: linear-gradient(80deg, rgb(5, 124, 172), rgba(184, 40, 228, 0.315));
+    background-image: linear-gradient(80deg, rgb(113, 120, 122), rgba(29, 11, 34, 0.315));
     overflow: hidden;
     font-family: 'poppins'
 }
@@ -23,7 +23,7 @@ body {
     height: 800px;
     width: 800px;
     border-radius: 50%;
-    background-image: linear-gradient(80deg , rgb(40, 212, 189), rgb(224, 205, 33));
+    background-image: linear-gradient(80deg , rgb(165, 167, 166), rgb(20, 19, 11));
     filter: blur(80px);
     animation: down 40s infinite;
 }
