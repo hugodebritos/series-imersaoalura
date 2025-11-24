@@ -1,14 +1,514 @@
 [
 {
-    "nome":"JavaScript",
-    "descrição":"O JS é a linguagem da galere",
-    "ano":1995,
-    "link":"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    "nome":"The Wire",
+    "descrição":"Série sobre o tráfico de drogas em Baltimore",
+    "categoria":"Drama policial",
+    "ano":"2002",
+    "link":"https://www.imdb.com/pt/title/tt0306414/",
+    "imagem": "https://d32qys9a6wm9no.cloudfront.net/images/tvs/poster/26/f10857d2cf93576e973b7e76caaa47c5_300x442.jpg?t=1636102095"
 },
 {
-    "nome":"Python",
-    "descrição":"O Python é a linguagem da ciência de dados",
-    "ano":1991,
-    "link":"https://docs.python.org/pt-br/3.14/"
+    "nome":"Game of Thrones",
+    "descrição":"Série de fantasia medieval baseada nos livros de George R. R. Martin",
+    "categoria":"Fantasia épica",
+    "ano":"2011",
+    "link":"https://www.imdb.com/title/tt0944947/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg"
+},
+{
+    "nome":"Breaking Bad",
+    "descrição":"Série sobre um professor de química que se torna fabricante de metanfetamina",
+    "categoria":"Drama policial",
+    "ano":"2008",
+    "link":"https://www.imdb.com/pt/title/tt0903747/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Break",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/e1/Breaking_bad_5_temporada_%28parte_1%29_poster.jpg"
+},
+{
+    "nome":"The Big Bang Theory",
+    "descrição":"Série de comédia sobre um grupo de amigos cientistas",
+    "categoria":"Comédia",
+    "ano":"2007",
+    "link":"https://www.imdb.com/title/tt0898266/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_SX300.jpg"
+},
+{
+    "nome":"Stranger Things",
+    "descrição":"Quando um garoto desaparece, sua mãe, um chefe de polícia e seus amigos devem enfrentar forças sobrenaturais aterrorizantes para trazê-lo de volta.",
+    "categoria":"Ficção científica, Terror",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt4574334/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+},
+{
+    "nome":"The Office",
+    "descrição":"Um documentário fictício sobre o dia a dia dos funcionários de um escritório da empresa de papel Dunder Mifflin.",
+    "categoria":"Comédia, Mockumentary",
+    "ano":"2005",
+    "link":"https://www.imdb.com/title/tt0386676/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg"
+},
+{
+    "nome":"Friends",
+    "descrição":"Acompanha a vida pessoal e profissional de seis amigos de vinte e poucos anos que vivem em Manhattan.",
+    "categoria":"Comédia, Romance",
+    "ano":"1994",
+    "link":"https://www.imdb.com/title/tt0108778/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+},
+{
+    "nome":"The Crown",
+    "descrição":"Segue as rivalidades políticas e o romance do reinado da Rainha Elizabeth II e os eventos que moldaram a segunda metade do século XX.",
+    "categoria":"Drama histórico",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt4786824/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e2/The-Crown-Poster-S2.jpg/250px-The-Crown-Poster-S2.jpg"
+},
+{
+    "nome":"Black Mirror",
+    "descrição":"Uma série de antologia que explora um futuro próximo distorcido e de alta tecnologia, onde as maiores inovações da humanidade colidem com seus instintos mais sombrios.",
+    "categoria":"Ficção científica, Suspense",
+    "ano":"2011",
+    "link":"https://www.imdb.com/title/tt2085059/",
+    "imagem": "https://resizing.flixster.com/yL-MXHM_ttXdnKBofDnTdOQf_WE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmQ5YTcxMDgtZWI5My00MmQzLWI1OGMtNTI0Zjk1NGYyYTBhLmpwZw=="
+},
+{
+    "nome":"Sherlock",
+    "descrição":"Uma versão moderna das histórias de Sherlock Holmes, ambientada em Londres no século XXI.",
+    "categoria":"Crime, Drama, Mistério",
+    "ano":"2010",
+    "link":"https://www.imdb.com/title/tt1475582/",
+    "imagem": "https://br.web.img2.acsta.net/pictures/14/01/06/14/35/382626.jpg"
+},
+{
+    "nome":"Peaky Blinders",
+    "descrição":"Uma saga familiar de gângsteres ambientada em Birmingham, Inglaterra, em 1919, centrada em uma gangue que costura lâminas de barbear nas abas de suas boinas.",
+    "categoria":"Crime, Drama",
+    "ano":"2013",
+    "link":"https://www.imdb.com/title/tt2442560/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_SX300.jpg"
+},
+{
+    "nome":"The Mandalorian",
+    "descrição":"As viagens de um caçador de recompensas solitário nos confins da galáxia, longe da autoridade da Nova República.",
+    "categoria":"Ação, Aventura, Ficção científica",
+    "ano":"2019",
+    "link":"https://www.imdb.com/title/tt8111088/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e7/The_Mandalorian_season_2_poster.jpg/250px-The_Mandalorian_season_2_poster.jpg"
+},
+{
+    "nome":"Fleabag",
+    "descrição":"Uma jovem de luto tenta lidar com a vida em Londres enquanto aceita a tragédia que a assola.",
+    "categoria":"Comédia dramática",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt5687612/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjA4MzU5NzQxNV5BMl5BanBnXkFtZTgwOTg3MDA5NzM@._V1_.jpg"
+},
+{
+    "nome":"Succession",
+    "descrição":"A história da disfuncional família Roy, proprietária de um dos maiores conglomerados de mídia e entretenimento do mundo.",
+    "categoria":"Comédia dramática, Sátira",
+    "ano":"2018",
+    "link":"https://www.imdb.com/title/tt7660850/",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BZjZhZDc4N2QtZTEzYS00ZmY5LWE2ODctYTA0MWRjMDBmZTFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"The Sopranos",
+    "descrição":"Chefe da máfia de Nova Jersey, Tony Soprano lida com questões pessoais e profissionais que causam ataques de pânico, o que o leva a procurar aconselhamento psiquiátrico.",
+    "categoria":"Drama, Crime",
+    "ano":"1999",
+    "link":"https://www.imdb.com/title/tt0141842/",
+    "imagem":"https://i.pinimg.com/474x/6b/57/88/6b5788c3461b03a70cb51edcf72c84ce.jpg"
+},
+{
+    "nome":"Chernobyl",
+    "descrição":"Em abril de 1986, uma explosão na usina nuclear de Chernobyl, na União Soviética, torna-se um dos piores desastres causados pelo homem na história.",
+    "categoria":"Drama, História, Thriller",
+    "ano":"2019",
+    "link":"https://www.imdb.com/title/tt7366338/",
+    "imagem":"https://upload.wikimedia.org/wikipedia/pt/9/92/PosterChernobyl.jpg"
+},
+{
+    "nome":"Band of Brothers",
+    "descrição":"A história da 'Easy Company', 506º Regimento da 101ª Divisão Aerotransportada do Exército dos EUA, e sua missão na Europa durante a Segunda Guerra Mundial.",
+    "categoria":"Ação, Drama, História",
+    "ano":"2001",
+    "link":"https://www.imdb.com/title/tt0185906/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BMTI3ODc2ODc0M15BMl5BanBnXkFtZTYwMjgzNjc3._V1_SX300.jpg"
+},
+{
+    "nome":"Planet Earth II",
+    "descrição":"David Attenborough retorna com uma nova série documental sobre a vida selvagem, explorando selvas, montanhas, desertos, ilhas, pastagens e cidades.",
+    "categoria":"Documentário",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt5491994/",
+    "imagem":"https://m.media-amazon.com/images/I/8198EstRXkL.jpg"
+},
+{
+    "nome":"Avatar: The Last Airbender",
+    "descrição":"Em um mundo devastado pela guerra de nações elementais, um jovem garoto desperta para assumir seu destino como o Avatar e trazer paz ao mundo.",
+    "categoria":"Animação, Ação, Aventura",
+    "ano":"2005",
+    "link":"https://www.imdb.com/title/tt0417299/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_SX300.jpg"
+},
+{
+    "nome":"True Detective",
+    "descrição":"Uma série de antologia onde detetives da polícia são forçados a confrontar segredos sombrios sobre si mesmos enquanto investigam homicídios perturbadores.",
+    "categoria":"Crime, Drama, Mistério",
+    "ano":"2014",
+    "link":"https://www.imdb.com/title/tt2356777/",
+    "imagem":"https://i.pinimg.com/474x/61/48/0f/61480f9526ee9c78d59e1d8a6ac0a3d5.jpg"
+},
+{
+    "nome":"Fargo",
+    "descrição":"Várias crônicas de engano, intriga e assassinato em e ao redor do congelado Minnesota. No entanto, todos esses contos misteriosamente levam de volta a Fargo, Dakota do Norte.",
+    "categoria":"Crime, Drama, Thriller",
+    "ano":"2014",
+    "link":"https://www.imdb.com/title/tt2802850/",
+    "imagem":"https://posterspy.com/wp-content/uploads/2024/01/Fargo-S1_01-25-24.jpg"
+},
+{
+    "nome":"Narcos",
+    "descrição":"Uma crônica da vida real dos chefões do tráfico de drogas no final dos anos 80 e os esforços corrosivos das autoridades para enfrentá-los.",
+    "categoria":"Biografia, Crime, Drama",
+    "ano":"2015",
+    "link":"https://www.imdb.com/title/tt2707408/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+},
+{
+    "nome":"Westworld",
+    "descrição":"Em um parque temático futurista, os visitantes interagem com androides em cenários do Velho Oeste, mas as coisas começam a dar errado quando os robôs desenvolvem consciência.",
+    "categoria":"Drama, Mistério, Ficção científica",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt0475784/",
+    "imagem":"https://c8.alamy.com/comp/2CBCMX5/usa-a-poster-for-hbo-tv-series-westworld-season-3-2020-plot-set-at-the-intersection-of-the-near-future-and-the-reimagined-past-explore-a-world-in-which-every-human-appetite-can-be-indulged-without-consequence-ref-lmk106-j6410-010420-supplied-by-lmkmedia-editorial-only-landmark-media-is-not-the-copyright-owner-of-these-film-or-tv-stills-but-provides-a-service-only-for-recognised-media-outlets-pictures@lmkmediacom-2CBCMX5.jpg"
+},
+{
+    "nome":"The Queen's Gambit",
+    "descrição":"A órfã e prodígio do xadrez Beth Harmon luta contra o vício em uma busca para se tornar a maior jogadora de xadrez do mundo.",
+    "categoria":"Drama",
+    "ano":"2020",
+    "link":"https://www.imdb.com/title/tt10048342/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_SX300.jpg"
+},
+{
+    "nome":"Mindhunter",
+    "descrição":"No final dos anos 70, dois agentes do FBI expandem a ciência criminal ao aprofundar a psicologia do assassinato, aproximando-se de monstros reais.",
+    "categoria":"Crime, Drama, Thriller",
+    "ano":"2017",
+    "link":"https://www.imdb.com/title/tt5290382/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BYTk4NDA4MGMtNjliOC00MjExLWI1YzctOTc4NWIxM2I1YjM5XkEyXkFqcGc@._V1_.jpg"
+},
+{
+    "nome":"Dark",
+    "descrição":"O desaparecimento de duas crianças em uma cidade alemã expõe as relações fraturadas, vidas duplas e o passado sombrio de quatro famílias, revelando um mistério que abrange três gerações.",
+    "categoria":"Crime, Drama, Mistério",
+    "ano":"2017",
+    "link":"https://www.imdb.com/title/tt5753856/",
+    "imagem":"https://pixeldemonmg.co.uk/cdn/shop/files/dark-movie-poster.jpg?v=1727034270&width=1214"
+},
+{
+    "nome":"Attack on Titan",
+    "descrição":"Depois que sua cidade natal é destruída e sua mãe é morta, o jovem Eren Jaeger promete limpar a terra dos Titãs humanóides gigantes que levaram a humanidade à beira da extinção.",
+    "categoria":"Animação, Ação, Aventura",
+    "ano":"2013",
+    "link":"https://www.imdb.com/title/tt2560140/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_SX300.jpg"
+},
+{
+    "nome":"Better Call Saul",
+    "descrição":"Os julgamentos e tribulações do advogado criminal Jimmy McGill antes de estabelecer seu escritório em Albuquerque, Novo México.",
+    "categoria":"Crime, Drama",
+    "ano":"2015",
+    "link":"https://www.imdb.com/title/tt3032476/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_.jpg"
+},
+{
+    "nome":"Ted Lasso",
+    "descrição":"Um treinador de futebol americano é contratado para gerenciar um time de futebol britânico; o que lhe falta em conhecimento, ele compensa com otimismo, determinação e... biscoitos.",
+    "categoria":"Comédia, Drama, Esporte",
+    "ano":"2020",
+    "link":"https://www.imdb.com/title/tt10986410/",
+    "imagem":"https://uauposters.com.br/media/catalog/product/3/8/386120211103-uau-posters-ted-lasso-believe-series.jpg"
+},
+{
+    "nome":"The Boys",
+    "descrição":"Um grupo de vigilantes se propõe a derrubar super-heróis corruptos que abusam de seus superpoderes.",
+    "categoria":"Ação, Comédia, Crime",
+    "ano":"2019",
+    "link":"https://www.imdb.com/title/tt1190634/",
+    "imagem":"https://m.media-amazon.com/images/I/710-pag9eJL._AC_UF894,1000_QL80_.jpghttps://m.media-amazon.com/images/I/710-pag9eJL._AC_UF894,1000_QL80_.jpg"
+},
+{
+    "nome":"House of Cards",
+    "descrição":"Um congressista trabalha com sua esposa igualmente conivente para se vingar das pessoas que o traíram.",
+    "categoria":"Drama",
+    "ano":"2013",
+    "link":"https://www.imdb.com/title/tt1856010/",
+    "imagem":"https://myhotposters.com/cdn/shop/products/mL0924_0f93fb5a-ff35-42da-b935-51068540eff8_1024x1024.jpg?v=1748536546"
+},
+{
+    "nome":"Dexter",
+    "descrição":"De dia, um analista de padrões de sangue para a polícia de Miami. À noite, um serial killer que caça outros assassinos.",
+    "categoria":"Crime, Drama, Mistério",
+    "ano":"2006",
+    "link":"https://www.imdb.com/title/tt0773262/",
+    "imagem":"https://m.media-amazon.com/images/I/71OC--Zwi2L._AC_SL1000_.jpg"
+},
+{
+    "nome":"Vikings",
+    "descrição":"Vikings transporta-nos para o mundo brutal e misterioso de Ragnar Lothbrok, um guerreiro e fazendeiro Viking que anseia por explorar - e invadir - as distantes costas do oceano.",
+    "categoria":"Ação, Aventura, Drama",
+    "ano":"2013",
+    "link":"https://www.imdb.com/title/tt2306299/",
+    "imagem":"https://m.media-amazon.com/images/I/61noa0sujTL._AC_UF894,1000_QL80_.jpg"
+},
+{
+    "nome":"The Handmaid's Tale",
+    "descrição":"Ambientada em um futuro distópico, uma mulher é forçada a viver como concubina sob uma ditadura teocrática fundamentalista.",
+    "categoria":"Drama, Ficção científica, Thriller",
+    "ano":"2017",
+    "link":"https://www.imdb.com/title/tt5834204/",
+    "imagem":"https://m.media-amazon.com/images/I/61trvlj1hCS._AC_UF894,1000_QL80_.jpg"
+},
+{
+    "nome":"La casa de papel",
+    "descrição":"Um grupo incomum de ladrões tenta realizar o assalto mais perfeito da história espanhola - roubar 2,4 bilhões de euros da Casa da Moeda Real da Espanha.",
+    "categoria":"Ação, Crime, Drama",
+    "ano":"2017",
+    "link":"https://www.imdb.com/title/tt6468322/",
+    "imagem":"https://m.media-amazon.com/images/I/51BvLPy81sL._AC_UF894,1000_QL80_.jpg"
+},
+{
+    "nome":"Ozark",
+    "descrição":"Um consultor financeiro arrasta sua família de Chicago para os Ozarks do Missouri, onde ele deve lavar dinheiro para aplacar um chefe do tráfico.",
+    "categoria":"Crime, Drama, Thriller",
+    "ano":"2017",
+    "link":"https://www.imdb.com/title/tt5071412/",
+    "imagem":"https://m.media-amazon.com/images/I/515sDuU241L._AC_UF894,1000_QL80_.jpg"
+},
+{
+    "nome":"Rick and Morty",
+    "descrição":"As aventuras de um cientista superinteligente e seu neto não tão brilhante.",
+    "categoria":"Animação, Aventura, Comédia",
+    "ano":"2013",
+    "link":"https://www.imdb.com/title/tt2861424/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX300.jpg"
+},
+{
+    "nome":"Seinfeld",
+    "descrição":"A contínua saga de um comediante de stand-up de Nova York e seus amigos igualmente neuróticos.",
+    "categoria":"Comédia",
+    "ano":"1989",
+    "link":"https://www.imdb.com/title/tt0098904/",
+    "imagem":"https://i.ebayimg.com/images/g/VSkAAOSwcO9lqPs0/s-l1200.jpg"
+},
+{
+    "nome":"Curb Your Enthusiasm",
+    "descrição":"A vida e os tempos do escritor, produtor e comediante Larry David, que interpreta uma versão ficcional e exagerada de si mesmo.",
+    "categoria":"Comédia",
+    "ano":"2000",
+    "link":"https://www.imdb.com/title/tt0264235/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BZmFiZDY2ZDItZDliOC00Y2JhLTliMWYtODkzMTA0YmIwZDA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"The Witcher",
+    "descrição":"Geralt de Rivia, um caçador de monstros solitário, luta para encontrar seu lugar em um mundo onde as pessoas muitas vezes se provam mais perversas que as bestas.",
+    "categoria":"Ação, Aventura, Drama",
+    "ano":"2019",
+    "link":"https://www.imdb.com/title/tt5180504/",
+    "imagem":"https://m.media-amazon.com/images/I/713TM23V+CL._AC_SL1000_.jpg"
+},
+{
+    "nome":"Round 6",
+    "descrição":"Centenas de jogadores com dificuldades financeiras aceitam um convite estranho para competir em jogos infantis. Um prêmio tentador os aguarda - com apostas mortais.",
+    "categoria":"Ação, Drama, Mistério",
+    "ano":"2021",
+    "link":"https://www.imdb.com/title/tt10919420/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg"
+},
+{
+    "nome":"Arcane",
+    "descrição":"Ambientado nas cidades utópicas de Piltover e no submundo oprimido de Zaun, a história segue as origens de duas campeãs icônicas de League of Legends - e o poder que as separará.",
+    "categoria":"Animação, Ação, Aventura",
+    "ano":"2021",
+    "link":"https://www.imdb.com/title/tt11126994/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BYjA2NzhlMDItNWRmZC00MzRjLWE3ZjAtZjBlZDAwOWY2ODdjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"Severance",
+    "descrição":"Mark lidera uma equipe de funcionários de escritório cujas memórias foram cirurgicamente divididas entre suas vidas profissionais e pessoais. Quando um colega misterioso aparece fora do trabalho, ele inicia uma jornada para descobrir a verdade sobre seus empregos.",
+    "categoria":"Drama, Mistério, Ficção científica",
+    "ano":"2022",
+    "link":"https://www.imdb.com/title/tt11280740/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"The Last of Us",
+    "descrição":"Depois que uma pandemia global destrói a civilização, um sobrevivente endurecido assume o comando de uma menina de 14 anos que pode ser a última esperança da humanidade.",
+    "categoria":"Ação, Aventura, Drama",
+    "ano":"2023",
+    "link":"https://www.imdb.com/title/tt3581920/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_SX300.jpg"
+},
+{
+    "nome":"Mad Men",
+    "descrição":"Um drama sobre uma das agências de publicidade mais prestigiadas de Nova York no início dos anos 1960, focando em um dos executivos de publicidade mais misteriosos, mas extremamente talentosos da empresa, Donald Draper.",
+    "categoria":"Drama",
+    "ano":"2007",
+    "link":"https://www.imdb.com/title/tt0804503/",
+    "imagem":"https://i.pinimg.com/564x/ea/57/29/ea57297585fcc5eea0c485f8a59e8a7d.jpg"
+},
+{
+    "nome":"House, M.D.",
+    "descrição":"Um médico anti-social e viciado em analgésicos, que se especializa em medicina diagnóstica, faz o que for preciso para resolver casos intrigantes que vêm em seu caminho usando sua equipe de médicos e sua inteligência.",
+    "categoria":"Drama, Mistério",
+    "ano":"2004",
+    "link":"https://www.imdb.com/title/tt0412142/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BMDA4NjQzN2ItZDhhNC00ZjVlLWFjNTgtMTEyNDQyOGNjMDE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+},
+{
+    "nome":"Lost",
+    "descrição":"Os sobreviventes de um acidente de avião são forçados a trabalhar juntos para sobreviver em uma ilha tropical aparentemente deserta.",
+    "categoria":"Aventura, Drama, Fantasia",
+    "ano":"2004",
+    "link":"https://www.imdb.com/title/tt0411008/",
+    "imagem":"https://image.tmdb.org/t/p/original/29tcXCeFa3CWmavGw4D7UlERjF2.jpg"
+},
+{
+    "nome":"Parks and Recreation",
+    "descrição":"As absurdas façanhas de uma burocrata de nível médio no departamento de Parques de Indiana, Pawnee, que, para o bem de sua cidade, tenta ajudar uma enfermeira local a transformar um canteiro de obras abandonado em um parque comunitário.",
+    "categoria":"Comédia",
+    "ano":"2009",
+    "link":"https://www.imdb.com/title/tt1266020/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"Brooklyn Nine-Nine",
+    "descrição":"O detetive Jake Peralta, um policial talentoso e despreocupado, nunca teve que seguir as regras. Agora, com um novo capitão, ele deve aprender a trabalhar em equipe.",
+    "categoria":"Comédia, Crime",
+    "ano":"2013",
+    "link":"https://www.imdb.com/title/tt2467372/",
+    "imagem":"https://rukminim2.flixcart.com/image/480/640/jsrtn680/poster/p/j/a/medium-brooklyn99c-brooklyn-nine-nine-tv-show-poster-for-room-original-imafe9nznefmvz8c.jpeg?q=90"
+},
+{
+    "nome":"Community",
+    "descrição":"Um advogado suspenso é forçado a se matricular em uma faculdade comunitária com um corpo discente eclético.",
+    "categoria":"Comédia",
+    "ano":"2009",
+    "link":"https://www.imdb.com/title/tt1439629/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BNDQ5NDZiYjktZmFmMy00MjAxLTk1MDktOGZjYTY5YTE1ODdmXkEyXkFqcGdeQXVyNjcwMzEzMTU@._V1_SX300.jpg"
+},
+{
+    "nome":"The Good Place",
+    "descrição":"Quatro pessoas e um arquiteto lutam em um mundo após a morte para definir o que significa ser bom.",
+    "categoria":"Comédia, Drama, Fantasia",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt4955642/",
+    "imagem":"https://uauposters.com.br/media/catalog/product/2/0/201906131365-uau-posters-series-seriado-the-good-place-o-bom-lugar.jpg"
+},
+{
+    "nome":"Atlanta",
+    "descrição":"Earn e seu primo Alfred tentam abrir caminho na cena do rap de Atlanta. Ao longo do caminho, eles enfrentam questões sociais e econômicas que tocam raça, relacionamentos e pobreza.",
+    "categoria":"Comédia, Drama, Música",
+    "ano":"2016",
+    "link":"https://www.imdb.com/title/tt4288182/",
+    "imagem":"https://ih1.redbubble.net/image.4392798540.3055/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+},
+{
+    "nome":"BoJack Horseman",
+    "descrição":"Conheça o cavalo mais amado da TV dos anos 90 - 20 anos depois. BoJack Horseman era a estrela do seriado de sucesso 'Horsin' Around', mas hoje ele está acabado, vivendo em Hollywood, reclamando de tudo e usando golas V coloridas.",
+    "categoria":"Animação, Comédia, Drama",
+    "ano":"2014",
+    "link":"https://www.imdb.com/title/tt3398228/",
+    "imagem":"https://i.ebayimg.com/images/g/OckAAOSwo3tavRJa/s-l1200.jpg"
+},
+{
+    "nome":"The Marvelous Mrs. Maisel",
+    "descrição":"Uma dona de casa em 1958 decide se tornar uma comediante de stand-up.",
+    "categoria":"Comédia, Drama",
+    "ano":"2017",
+    "link":"https://www.imdb.com/title/tt5788792/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BZjM3MmFjMzYtMGNiYi00MDZmLTlkM2MtNzI3MDg1MzUwYWY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"Schitt's Creek",
+    "descrição":"Quando a rica família Rose de repente se encontra falida, eles são forçados a se mudar para uma pequena cidade que compraram como uma piada: Schitt's Creek.",
+    "categoria":"Comédia",
+    "ano":"2015",
+    "link":"https://www.imdb.com/title/tt3526078/",
+    "imagem":"https://image.tmdb.org/t/p/original/bqSgt3OZDvHnOfoZEr7l0jVrSqB.jpg"
+},
+{
+    "nome":"Arrested Development",
+    "descrição":"O pai de família de nível Michael Bluth assume os negócios da família depois que seu pai é preso por contabilidade de colarinho branco.",
+    "categoria":"Comédia",
+    "ano":"2003",
+    "link":"https://www.imdb.com/title/tt0367279/",
+    "imagem":"https://m.media-amazon.com/images/I/61UMHp8HJfL._AC_UF894,1000_QL80_.jpg"
+},
+{
+    "nome":"It's Always Sunny in Philadelphia",
+    "descrição":"Cinco amigos com grandes egos e atitudes arrogantes são os proprietários de um bar irlandês em Filadélfia.",
+    "categoria":"Comédia",
+    "ano":"2005",
+    "link":"https://www.imdb.com/title/tt0472954/",
+    "imagem":"https://m.media-amazon.com/images/I/71Qv1c1zFXL.jpg"
+},
+{
+    "nome":"Silicon Valley",
+    "descrição":"Siga a vida de Richard Hendricks, um engenheiro de software do Vale do Silício tentando construir sua própria empresa chamada Pied Piper.",
+    "categoria":"Comédia",
+    "ano":"2014",
+    "link":"https://www.imdb.com/title/tt2575988/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BMjhhYmZjZjgtOTc3Mi00ZmY3LWI3MTUtYzcyOGMxYWFmN2YyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"Veep",
+    "descrição":"A ex-senadora Selina Meyer descobre que ser vice-presidente dos Estados Unidos não é nada como ela esperava, mas tudo o que ela foi avisada.",
+    "categoria":"Comédia",
+    "ano":"2012",
+    "link":"https://www.imdb.com/title/tt1759761/",
+    "imagem":"https://i.ebayimg.com/images/g/n~wAAOSwoHZg3iYX/s-l1200.jpg"
+},
+{
+    "nome":"The Expanse",
+    "descrição":"No século 24, um grupo de humanos frustra uma vasta conspiração que ameaça o frágil estado de guerra fria do sistema solar.",
+    "categoria":"Drama, Mistério, Ficção científica",
+    "ano":"2015",
+    "link":"https://www.imdb.com/title/tt3230854/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BYzUyYmI3MjctY2Q2MC00NmFjLTgwZGUtNWQzZWNlYmVjNzE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"Mr. Robot",
+    "descrição":"Elliot, um jovem programador que trabalha como engenheiro de segurança cibernética durante o dia e como hacker vigilante à noite, é recrutado por um misterioso grupo de hackers.",
+    "categoria":"Crime, Drama, Thriller",
+    "ano":"2015",
+    "link":"https://www.imdb.com/title/tt4158110/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg"
+},
+{
+    "nome":"Twin Peaks",
+    "descrição":"Um agente do FBI excêntrico investiga o assassinato de uma jovem na pequena cidade de Twin Peaks.",
+    "categoria":"Crime, Drama, Mistério",
+    "ano":"1990",
+    "link":"https://www.imdb.com/title/tt0098936/",
+    "imagem":"https://deadline.com/wp-content/uploads/2017/02/one-sheet-laura-palmer-twin-peaks.jpg"
+},
+{
+    "nome":"The X-Files",
+    "descrição":"Dois agentes do FBI, Fox Mulder, o crente, e Dana Scully, a cética, investigam o estranho e inexplicável enquanto forças ocultas trabalham para impedir seus esforços.",
+    "categoria":"Crime, Drama, Mistério",
+    "ano":"1993",
+    "link":"https://www.imdb.com/title/tt0106179/",
+    "imagem":"https://m.media-amazon.com/images/M/MV5BNzg3ODVhZWEtYmI0MC00NDQ0LWEyNGYtM2M0MTRhZTZmMjU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+},
+{
+    "nome":"Deadwood",
+    "descrição":"Uma cidade de personagens rudes no oeste americano, repleta de corrupção e crime.",
+    "categoria":"Crime, Drama, História",
+    "ano":"2004",
+    "link":"https://www.imdb.com/title/tt0348914/",
+    "imagem":"https://image.tmdb.org/t/p/original/4Yp35DVbVOAWkfQUIQ7pbh3u0aN.jpg"
 }
 ]
