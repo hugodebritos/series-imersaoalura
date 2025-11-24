@@ -1,65 +1,49 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Séries</title>
 </head>
-
 <body>
-    <section id="up"></section>
-    <section id="down"></section>
-    <section id="left"></section>
-    <section id="right"></section>
-
-    <nav>
-        <div class="logo"></div>
-    </nav>
-
     <header>
-        <div class="degrade"><h1>Séries</h1></div>
-        <ul class="nav-list"></ul>
-            <li>Ano<a href="#"></a></li>
-            <li>Categorias<a href="#"></a></li>
-            <li>Mais<a href="#"></a></li>
-
+        <nav>
+            <div class="logo"><h1>Séries.</h1></div></nav>
+        
         <div>
-            <input type="text" placeholder="Pesquisar">
+                <input type="text" id="search-input" placeholder="Pesquisar por nome ou descrição">
+                <button id="botao-busca">Buscar</button>
         </div>
-        <button onclick="iniciarBusca()">Buscar</button>
     </header>
-    <main>
-        <section class="card-container">
-            <article class="card">
-                <h2>JavaScript</h2>
-                <p>1995</p>
-                <p>JavaScript é uma linguagem de programação</p>
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais</a>
-            </article>
 
-            <article class="card">
-                <h2>Python</h2>
-                <p>1991</p>
-                <p>Python é uma linguagem de programação</p>
-                <a href="https://docs.python.org/pt-br/3.14/" target="_blank">Saiba mais</a>
-            </article>
+    <main>
+        <section id="card-container">
+
+            <!-- <article>
+            <h2>The Wire</h2>
+            <p>Drama policial sobre a dura re alidade das ruas de Baltimore, contada sob diversos ângulos.</p>
+            <p>Drama policial</p>
+            <p>2002</p>
+            <a href="https://www.imdb.com/pt/title/tt0306414/" target="_blank">Leia mais...</a>
+            </article> -->
+
         </section>
     </main>
-    <footer>
-        <ul>
+
+    <footer class="footer">
+        <ul class="footer-links">
             <li>
-                <a href="https://instagram.com/hugodebrito">Instagram</a>
+                <a href="https://github.com/hugodebritos" target="_blank">
+                    <img src="./icones/733553.png" width="30px" alt=""></a>
             </li>
             <li>
-                <a href="https://github.com/hugodebritos">GitHub</a>
+                <a href="https://www.instagram.com/hugodebrito/" target="_blank">
+                    <img src="./icones/instagram-53.png"  width="30px">
+                </a>
             </li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
-
-
 </html>
-
