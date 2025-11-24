@@ -9,7 +9,7 @@
 },
 {
     "nome":"Game of Thrones",
-    "descrição":"Série de fantasia medieval baseada nos livros de George R. R. Martin",
+    "descrição":"Nove famílias nobres lutam pelo controle sobre as terras míticas de Westeros, enquanto um antigo inimigo retorna depois de estar adormecido por milhares de anos.",
     "categoria":"Fantasia épica",
     "ano":"2011",
     "link":"https://www.imdb.com/title/tt0944947/",
@@ -17,7 +17,7 @@
 },
 {
     "nome":"Breaking Bad",
-    "descrição":"Série sobre um professor de química que se torna fabricante de metanfetamina",
+    "descrição":"Um professor de química diagnosticado com câncer de pulmão se transforma em fabricante e vendedor de metanfetamina, a fim de garantir o futuro da sua família.",
     "categoria":"Drama policial",
     "ano":"2008",
     "link":"https://www.imdb.com/pt/title/tt0903747/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Break",
@@ -25,7 +25,7 @@
 },
 {
     "nome":"The Big Bang Theory",
-    "descrição":"Série de comédia sobre um grupo de amigos cientistas",
+    "descrição":"Uma mulher se muda para um apartamento do outro lado do corredor perto de dois físicos brilhantes, mas socialmente desajeitados, e lhes mostra quão pouco sabem sobre a vida fora do laboratório.",
     "categoria":"Comédia",
     "ano":"2007",
     "link":"https://www.imdb.com/title/tt0898266/",
@@ -512,5 +512,6 @@
     "imagem":"https://image.tmdb.org/t/p/original/4Yp35DVbVOAWkfQUIQ7pbh3u0aN.jpg"
 }
 ]
+
 
 
