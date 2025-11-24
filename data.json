@@ -2,7 +2,7 @@
 {
     "nome":"The Wire",
     "descrição":"Drama policial sobre a dura realidade das ruas de Baltimore, contada sob diversos ângulos.",
-    "categoria":"Drama policial",
+    "categoria":"Drama, Crime",
     "ano":"2002",
     "link":"https://www.imdb.com/pt/title/tt0306414/",
     "imagem": "https://d32qys9a6wm9no.cloudfront.net/images/tvs/poster/26/f10857d2cf93576e973b7e76caaa47c5_300x442.jpg?t=1636102095"
@@ -10,7 +10,7 @@
 {
     "nome":"Game of Thrones",
     "descrição":"Nove famílias nobres lutam pelo controle sobre as terras míticas de Westeros, enquanto um antigo inimigo retorna depois de estar adormecido por milhares de anos.",
-    "categoria":"Fantasia épica",
+    "categoria":"Fantasia épica, Drama",
     "ano":"2011",
     "link":"https://www.imdb.com/title/tt0944947/",
     "imagem": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg"
@@ -18,7 +18,7 @@
 {
     "nome":"Breaking Bad",
     "descrição":"Um professor de química diagnosticado com câncer de pulmão se transforma em fabricante e vendedor de metanfetamina, a fim de garantir o futuro da sua família.",
-    "categoria":"Drama policial",
+    "categoria":"Drama, Crime",
     "ano":"2008",
     "link":"https://www.imdb.com/pt/title/tt0903747/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Break",
     "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/e1/Breaking_bad_5_temporada_%28parte_1%29_poster.jpg"
@@ -512,6 +512,7 @@
     "imagem":"https://image.tmdb.org/t/p/original/4Yp35DVbVOAWkfQUIQ7pbh3u0aN.jpg"
 }
 ]
+
 
 
 
