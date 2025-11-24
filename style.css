@@ -36,6 +36,7 @@ header h1 {
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
     color: #fff;
+    text-shadow: 2px 3px 2px #000000;
 }
 
 .search-container input {
@@ -328,3 +329,4 @@ article a:hover {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+
