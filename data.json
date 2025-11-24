@@ -1,0 +1,14 @@
+[
+{
+    "nome":"JavaScript",
+    "descrição":"O JS é a linguagem da galere",
+    "ano":1995,
+    "link":"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+},
+{
+    "nome":"Python",
+    "descrição":"O Python é a linguagem da ciência de dados",
+    "ano":1991,
+    "link":"https://docs.python.org/pt-br/3.14/"
+}
+]
